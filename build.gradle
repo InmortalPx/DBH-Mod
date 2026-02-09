@@ -9,7 +9,7 @@ group = 'org.inmopx'
 version = '1.0.0'
 
 base {
-    archivesName = 'dbch-core'
+    archivesName = 'dbh-core'
 }
 
 java {
@@ -28,7 +28,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                dbch_core {
+                dbh_core {
                     source sourceSets.main
                 }
             }
@@ -40,7 +40,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                dbch_core {
+                dbh_core {
                     source sourceSets.main
                 }
             }
@@ -65,7 +65,7 @@ tasks.withType(JavaCompile).configureEach {
 jar {
     manifest {
         attributes(
-                'Specification-Title': 'DBCH-Core',
+                'Specification-Title': 'DBH-Core',
                 'Specification-Vendor': 'inmopx',
                 'Specification-Version': '1',
                 'Implementation-Title': project.name,
