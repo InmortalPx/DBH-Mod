@@ -4,13 +4,13 @@ import com.mojang.logging.LogUtils;
 import net.minecraftforge.fml.common.Mod;
 import org.slf4j.Logger;
 
-@Mod(DBCHCore.MODID)
-public class DBCHCore {
+@Mod(DBHMod.MODID)
+public class DBHMod {
 
-    public static final String MODID = "dbch_core";
+    public static final String MODID = "dbh_core";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public DBCHCore() {
+    public DBHMod() {
         LOGGER.info("[DBCH-Core] Mod cargado correctamente.");
     }
 }
