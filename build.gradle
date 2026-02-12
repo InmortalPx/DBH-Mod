@@ -9,7 +9,7 @@ group = 'org.inmopx'
 version = '1.0.0'
 
 base {
-    archivesName = 'dbh-core'
+    archivesName = 'DBHMod'
 }
 
 java {
@@ -28,7 +28,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                dbh_core {
+                dbh_mod {
                     source sourceSets.main
                 }
             }
@@ -40,7 +40,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                dbh_core {
+                dbh_mod {
                     source sourceSets.main
                 }
             }

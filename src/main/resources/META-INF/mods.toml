@@ -5,9 +5,9 @@ license="All Rights Reserved"
 [[mods]]
 modId="dbh_mod"
 version="1.0.0"
-displayName="DBH-Mod"
+displayName="DBHMod"
 description='''Core mod para DragonBlockHispano, añade pack de texturas y en un futuro otras integraciones'''
-authors="inmopx"
+authors="InmortalPx e iLalox"
 
 [[dependencies.dbh_mod]]
 modId="forge"
