@@ -1,4 +1,4 @@
-package org.inmopx.dbh_core;
+package org.inmopx.dbh_mod;
 
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.fml.common.Mod;
