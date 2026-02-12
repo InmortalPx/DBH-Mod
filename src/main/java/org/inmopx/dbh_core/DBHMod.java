@@ -7,10 +7,10 @@ import org.slf4j.Logger;
 @Mod(DBHMod.MODID)
 public class DBHMod {
 
-    public static final String MODID = "dbh_core";
+    public static final String MODID = "dbh_mod";
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public DBHMod() {
-        LOGGER.info("[DBCH-Core] Mod cargado correctamente.");
+        LOGGER.info("[DBH-Mod] Mod cargado correctamente.");
     }
 }
